@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="../styles/styles.css" />
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="destination-section" >
+<!-- Navbar -->
+
+<header>
+  <nav>
+  <img class="logo" src="../assets/shared/logo.svg" alt="space logo"/>
+  <hr />
+    <ul class="desktop-nav">
+      <li><a class="nav-text" href="./index.html"><span class="bold-white">00</span> Home</a></li>
+  <li><a class="nav-text active-nav-tab"  href="./destination-moon.html"><span class="bold-white">01</span> Destination</a></li>
+  <li><a class="nav-text"  href="./crew-commander.html"><span class="bold-white">02</span> Crew</a></li>
+  <li><a class="nav-text"  href="./technology-vehicle.html"><span class="bold-white">03</span> Technology</a>
+    </ul>
+  </nav>
+  <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    <ul class="mobile-menu">
+      <li><a class="nav-text" href="./index.html"><span class="bold-white">00</span> Home</a></li>
+      <li><a class="nav-text active-nav-tab"  href="./destination-moon.html"><span class="bold-white">01</span> Destination</a></li>
+      <li><a class="nav-text"  href="./crew-commander.html"><span class="bold-white">02</span> Crew</a></li>
+      <li><a class="nav-text"  href="./technology-vehicle.html"><span class="bold-white">03</span> Technology</a>
+    </ul>
+  </div>
+</header>
+  <div class="container">
+<div class="left-container">
+  <h5>01 Pick your destination</h5>
+  <img src="../assets/destination/image-titan.png" alt="Titan" />
+</div>
+<div class="right-container">
+  <ul class="destination-tabs">
+    <li ><a class="nav-text white-text" href="./destination-moon.html">Moon</a></li>
+    <li ><a class="nav-text white-text" href="./destination-mars.html">Mars</a></li>
+    <li ><a class="nav-text white-text" href="./destination-europa.html">Europa</a></li>
+    <li ><a href="./destination-titan.html" class="nav-text white-text active-nav-tab">Titan</a></li>
+    
+   </ul>
+
+  <h2>Titan</h2>
+
+  <p>The only moon known to have a dense atmosphere other than Earth, Titan 
+  is a home away from home (just a few hundred degrees colder!). As a 
+  bonus, you get striking views of the Rings of Saturn.</p>
+
+  <hr class="bottom-line" />
+
+  <div class="travel-info">
+    <div class="inner-travel-info">
+  <h5 class="subheading2">Avg. distance</h5>
+  <p class="subheading1">1.6 bil. km</p>
+</div>
+<div class="inner-travel-info">
+ <h5 class="subheading2"> Est. travel time </h5>
+  <p class="subheading1">7 years</p>
+</div>
+</div>
+
+</div>
+</div>
+<script src="../scripts/index.js"></script>
+</body>
+</html>

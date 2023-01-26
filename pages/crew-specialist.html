@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="../styles/styles.css" />
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="crew-bg">
+<!-- Navbar -->
+
+<header>
+  <nav>
+  <img class="logo" src="../assets/shared/logo.svg" alt="space logo"/>
+  <hr class="nav-line" />
+    <ul class="desktop-nav">
+      <li><a class="nav-text" href="./index.html"><span class="bold-white">00</span> Home</a></li>
+  <li><a class="nav-text"  href="./destination-moon.html"><span class="bold-white">01</span> Destination</a></li>
+  <li><a class="nav-text active-nav-tab"  href="./crew-commander.html"><span class="bold-white">02</span> Crew</a></li>
+  <li><a class="nav-text"  href="./technology-vehicle.html"><span class="bold-white">03</span> Technology</a>
+    </ul>
+  </nav>
+  <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    <ul class="mobile-menu">
+      <li><a class="nav-text" href="./index.html"><span class="bold-white">00</span> Home</a></li>
+      <li><a class="nav-text"  href="./destination-moon.html"><span class="bold-white">01</span> Destination</a></li>
+      <li><a class="nav-text active-nav-tab"  href="./crew-commander.html"><span class="bold-white">02</span> Crew</a></li>
+      <li><a class="nav-text"  href="./technology-vehicle.html"><span class="bold-white">03</span> Technology</a>
+    </ul>
+  </div>
+</header>
+<!-- MOBILE CREW CONTAINER -->
+<h5 class="crew-heading"> 02 Meet your crew</h5>
+<img class="mobile-crew-img" src="../assets/crew/image-mark-shuttleworth.png" />
+<hr class="grey-line" />
+<!-- MAIN CREW CONTAINER -->
+  <div class="crew-container">
+<!-- LEFT CREW CONTAINER -->
+
+
+    <div class="crew-left-container">
+      <!-- MOBILE CREW TEXT BOX -->
+      <div class="mobile-text-box">
+
+
+  <h4>Mission Specialist </h4>
+ <h3> Mark Shuttleworth </h3>
+
+ <p> Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
+  the Linux-based Ubuntu operating system. Shuttleworth became the first South 
+  African to travel to space as a space tourist.</p>
+</div>
+<!-- CREW DOT NAVIGATION -->
+  <ul class="dot-list">
+    <li><a href="./crew-commander.html"><div class="dot "></div></a></li>
+    <li><a href="./crew-engineer.html"><div class="dot"></div></a></li>
+    <li><a href="./crew-pilot.html"><div class="dot"></div></a></li>
+    <li><a href="./crew-specialist.html"><div class="dot active-dot"></div></a></li>
+
+  </ul>
+</div>
+<!-- CREW RIGHT CONTAINER -->
+  <div class="crew-right-container">
+    <img class="specialist" src="../assets/crew/image-mark-shuttleworth.png" alt="Specialist" />
+  </div>
+</div>
+<script src="../scripts/index.js"></script>
+</body>
+</html>
